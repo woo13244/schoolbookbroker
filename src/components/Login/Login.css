@@ -1,0 +1,152 @@
+body{
+    background-color: #efd345
+}
+.auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #efd345;
+    position: relative;
+    z-index: 1
+}
+.circleContainer{
+    height: 90vh;
+    width: 90vh;
+    z-index: 2;
+    position: absolute;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800,900');
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 35px;
+    z-index: 6
+}
+.text-box h1{
+    margin-top:0px;
+    margin-bottom:0px;
+    letter-spacing: 10px
+}
+.lightBlueCircle{
+    width:60%;
+    height:60%;
+    background-color: #46acf0;
+    border-radius: 100%;
+    position: absolute;
+    opacity: .75;
+    top: 30px;
+    z-index: 4;
+    left: 30px
+}
+.redCircle{
+    width:60%;
+    height:60%;
+    background-color: #ef363a;
+    border-radius: 100%;
+    position: absolute;
+    opacity: .75;
+    z-index: 3;
+    right: 30px;
+    top: 20%
+}
+.darkBlueCircle{
+    width:60%;
+    height:60%;
+    background-color: #2e73c3;
+    border-radius: 100%;
+    position: absolute;
+    opacity: .75;
+    z-index: 5;
+    bottom: 30px;
+    left: 30px
+}
+.aboutCircle{
+    width: 30px;
+    height: 30px;
+    background-color: #46acf0;
+    margin-right: 15px;
+    border-radius: 100%;
+    opacity: .8;
+}
+.aboutCircle:hover{
+    width: 55px;
+    height: 55px
+}
+.aboutButton{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    position: absolute;  
+    right: 30px;
+    top: 10vh
+}
+.contactCircle{
+    width: 30px;
+    height: 30px;
+    background-color: #ef363a;
+    margin-right: 15px;
+    border-radius: 100%;
+    opacity: .8;
+}
+.contactCircle:hover{
+    width: 55px;
+    height: 55px
+}
+.contactButton{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    position: absolute;  
+    left: -150px;
+
+}
+.loginCircle{
+    width: 80px;
+    height: 80px;
+    background-color: #ef363a;
+    margin-right: 0px;
+    border-radius: 100%;
+    opacity: .8;
+    border-style: none
+}
+.loginCircle:hover{
+    width: 95px;
+    height: 95px; 
+}
+.loginButton{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    position: absolute;  
+    right: -30px;
+    bottom: 0px
+
+}
+.loginButtonContainer{
+    width: 100vh;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 7;
+}
+
+

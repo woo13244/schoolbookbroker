@@ -1,0 +1,643 @@
+body{
+   background-color: white
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white
+}
+.privateOff{
+    display:none
+}
+.privateHeader{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.privateHeaderOff{
+    display: none
+}
+.menuExtensionBackground{
+    width: 100vw;
+    height: 60px;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+.menuExtensionBackgroundOff{
+    display: none
+}
+.menuContent{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 15px;
+    width: 80vw;
+    color: #696D6E;
+    font-weight: bold
+}
+.verticleLine{
+    height: 90%;
+    width: 1px;
+    background-color: #D3D3D3;
+    margin-left: 15px;
+    margin-right: 15px
+}
+.verticleLine1{
+    height: 90%;
+    width: 1px;
+    background-color: #D3D3D3;
+    margin-left: 15px;
+}
+.cart-logo{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.appText{
+    position: absolute;
+    left: 0px
+    
+}
+.menuText{
+    margin-right: 10px
+}
+.menuBar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80vw;
+    height: 60px;
+    color: #696D6E;
+    font-size: 16px;
+    background-color: #F9F9F9
+} 
+.menuBarBackground{
+    width: 100vw;
+    background-color:#F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800,900');
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 80vw;
+    padding-top: 10px
+
+}
+.logoBar{
+    position: relative;
+    height: 100px;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #00aeef;
+    padding-bottom: 10px;
+
+
+}
+.logoBar span{
+    color: #39b54a
+}
+.mainBanner{
+    background-image: url('http://www.downtownfrostburg.com/wp-content/uploads/2016/08/bookshelf.jpg');
+    width: 100vw;
+    height: 425px;
+    position: absolute;
+    opacity: .3;
+}
+.inputHolder{
+    width: 100vw;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 45px;
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-shadow: -1px 0 #202020, 0 3px #202020, 2px 0 #202020, 0 -1px #202020;
+}
+.isbnInput{
+    width: 620px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    color: #696D6E;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center
+}
+.getMatched{
+    width: 175px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: 800;
+    color: white;
+    background-color: #00aeef;
+    border-style: none;
+    margin-bottom: 25px
+}
+.privateButtonContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    height: 100px;
+    position: relative;
+    margin-top: 20px
+
+}
+.redBox{
+    background-color: #f77b63;
+    width: 17vw;
+    height: 80px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: 800;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none
+}
+.blueBox{
+    background-color: #33c3f2;
+    width: 17vw;
+    height: 80px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: 800;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none
+}
+.greyBox{
+    background-color: #b7bfc7;
+    width: 17vw;
+    height: 80px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: 800;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none  
+}
+.greenBox{
+    background-color: #61c46e;
+    width: 17vw;
+    height: 80px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: 800;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    border-style: none
+}
+.redText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40vw;
+    line-height: 20px
+}
+.redText div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+.redText .betterBuisness{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.bbbLogo{
+    background-image: url('http://www.iconninja.com/files/392/291/819/online-method-bbb-payment-finance-logo-icon.png');
+    height: 125px;
+    width: 175px;
+    margin-left: 0px;
+    padding-left: 0px;
+    background-position: center
+}
+.bbbText{
+    text-align: left;
+    color: #696D6E;
+    margin-top: 0px;
+}
+
+.bbbText span{
+    font-weight: bold
+}
+.customerPhoto{
+    height: 310px;
+    margin-left: 30px
+
+}
+.bestPrices{
+    margin-bottom: 15px
+}
+.freeShipping{
+    margin-bottom: 15px
+}
+.fastShipping{
+    margin-bottom: 30px;
+    text-align: left
+}
+.redLink{
+    display: flex;
+    width: 70vw;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    position: relative;
+    z-index: 1
+}
+.redLinkOff{
+    display: none;
+    width: 70vw;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    position: relative;
+    z-index: 1
+}
+.blueLink{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 70vw;
+    height: 300px;
+    opacity: 1;
+    transition: opacity 3.5s
+}
+.blueLinkOff{
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 70vw;
+    height: 300px;
+    opacity: 0;
+    
+}
+.blueText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40vw;
+    margin-left: 30px;
+    margin-right: 40px;
+    color: #696D6E;
+}
+.blueText p{
+    text-align: left;
+    line-height: 20px
+}
+.isbnImage{
+    height: 200px;
+    border-radius: 10%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 2px #888888
+}
+.blueP1{
+    margin-top: 0px;
+}
+.greyLink{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 70vw;
+    height: 200px;
+    line-height: 30px;
+    font-size: 19px;
+    color: #696D6E
+}
+.greyLinkOff{
+    display: none;
+    align-items: center;
+    text-align: left;
+    width: 70vw;
+    height: 200px;
+    line-height: 30px;
+    font-size: 19px;
+    color: #696D6E
+}
+.greenLink{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 70vw;
+    height: 200px;
+    line-height: 30px;
+    font-size: 19px;
+    color: #696D6E;
+}
+.greenLinkOff{
+    display: none;
+    align-items: center;
+    text-align: left;
+    width: 70vw;
+    height: 200px;
+    line-height: 30px;
+    font-size: 19px;
+    color: #696D6E
+}
+.reviewBox{
+    height: 250px;
+    width: 100vw;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+.reviewBox img{
+    width: 300px
+}
+.review1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 370px;
+    text-align: left;
+    margin-left: 50px
+}
+.review1 img{
+    width: 100px
+}
+.customerReviews{
+    display: flex; 
+}
+.bottomFoot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mobileLinkBackground{
+    background-color:#7b7b7b;
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: center
+}
+.mobileLink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #7b7b7b;
+    width: 70vw;
+    height: 150px
+}
+.mobileApps{
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobileApps img{
+    width: 200px;
+}
+.mobileText{
+    font-family: sans-serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    width: 35vw;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: left
+}
+.androidApp{
+    margin-right: 30px;
+    height: 72px
+    
+}
+.contactInfo{
+    width: 70vw;
+    display:flex;
+    justify-content: flex-start;
+    height: 200px;
+    align-items: center;
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
+    margin-top: 30px;
+    padding-bottom: 30px
+}
+.socialIcons{
+    width:30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.socialIcons img{
+    width: 9vw;
+    margin-left: 40px;
+    margin-top: 30px
+}
+.payIcon{
+    max-width:4vw;
+}
+.mcafee{
+    height: 45px;
+}
+.bbbIcon{
+    padding-right: 70px
+}
+.contactUs{
+    width:40vw;
+    border-left:2px solid #444141;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.contactHeader{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: 800;
+    color: #00aeef
+}
+.contactHeader span{
+    color:#39b54a
+}
+.supportInfo{
+    display: flex;
+    flex-direction: column; 
+    justify-content:flex-start;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 18px;
+ }
+.supportContact{
+    color:#0966b7;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.support{
+    color:#0966b7;
+}
+.email div{
+    margin-bottom: 8px
+}
+.email{
+    padding-bottom: 20px
+}
+.finalContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #484848;
+    color: white;
+    font-size: 13px;
+    width: 100vw;
+    margin-top: 30px
+}
+.finalFooter{
+    width: 100vw;
+    height: 20px;;
+    background-color: #737373;
+    color: #fdfdfd;
+    display: flex;
+    justify-content: flex-end;
+}
+.finalFooter div{
+    margin-right: 200px
+}
+.bookDescription{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("http://covers.openlibrary.org/b/isbn/9780385533225-S.jpg");
+    opacity: .8;
+}
+.bookDescriptionOff{
+    display: none;
+}
+.bookDescriptionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    background-color: white
+}
+.descriptionHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom, #f5f6f9 0%, #AFAFAF 100%);
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.descriptionBody{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wantedBookDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid #444141;
+    font-size: 20px;
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    padding-top: 20px
+}
+.wantedBookDescriptionHolder{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.wantedBookDescriptionHolder img{
+    height: 150px;
+    border: 2px solid orange
+}
+.tradeInBookDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    padding-top: 20px
+}
+.tradeinBookDescriptionHolder{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.tradeinBookDescriptionHolder img{
+    height: 150px;
+    border: 2px solid orange
+}
+.bookDescriptionFooter{
+    height: 50px;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background: linear-gradient(to bottom, #f7dda0 0%, #f0c24e 100%);
+}
+.returnLink{
+    margin-bottom: 10px
+
+}
+.finalFaqText{
+    margin-bottom: 30px
+}

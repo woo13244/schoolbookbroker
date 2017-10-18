@@ -1,0 +1,224 @@
+.Faq{
+    display: flex; 
+    flex-direction: column;
+    align-items: center
+}
+.faqBody{
+    width: 80vw;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.faqHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    line-height: 34px
+}
+.linkHeaderTitle{
+    font-size: 22px;
+    color: #00aeef;
+    display: flex;
+    justify-content: flex-start
+}
+.isbnBody{
+    display: flex; 
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    line-height: 34px
+}
+.isbnLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 45px
+}
+.typeOfBooksBody{
+    display: flex; 
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    line-height: 34px
+}
+.typeOfBooksLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 45px
+}
+.bookConditionBody{
+    display: flex; 
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    line-height: 34px
+}
+.bookConditionLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 45px
+}
+.shippingBody{
+    display: flex; 
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    line-height: 34px
+}
+.shippingLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 45px
+}
+.isbnLinkBody{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    margin-left: 20px;
+    line-height: 25px
+}
+.linkBodyTitle{
+    font-size: 25px;
+    margin-top: 40px;
+}
+#isbnLinkOne{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+#isbnLinkTwo{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+#isbnLinkThree{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+#isbnLinkFour{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+.typeOfBooksBody{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    margin-left: 20px;
+    line-height: 25px
+}
+#typeLinkOne{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+#typeLinkTwo{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+#typeLinkThree{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+#typeLinkFour{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+.bookConditionBody{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    margin-left: 20px;
+    line-height: 25px
+}
+#conditionLinkOne{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+#conditionLinkTwo{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+.shippingBody{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    margin-left: 20px;
+    line-height: 25px
+}
+#shippingLinkOne{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+#shippingLinkTwo{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+#shippingLinkThree{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+#shippingLinkFour{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+#shippingLinkFive{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+#shippingLinkSix{
+    color: #00aeef;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
